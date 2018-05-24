@@ -1,15 +1,15 @@
 def prime?(x)
-  if x == 1
-    return false 
-  elsif x < 1
-    return false
-  else
-  for y in 2..(x-1)
-    if (x % y) == 0
-      return false 
+    if x < 2
+      return false
+    elsif x == 2 || x == 3
+      return true
+    elsif
+      array = (2...x).to_a
+        for n in array
+            if x % n == 0
+               return false
+      end
     end
-  end 
-end
- 
+  end
   true
 end
