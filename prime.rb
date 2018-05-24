@@ -3,12 +3,12 @@ def prime?(x)
       return false
     elsif x == 2 || x == 3
       return true
-    else
-      array = (2..x).to_a
+    elsif
+      array = (2...x).to_a
         for n in array
             if x % n == 0
                return false
-            else return true
+      else return true
       end
     end
   end
