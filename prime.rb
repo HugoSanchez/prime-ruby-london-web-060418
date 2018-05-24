@@ -4,6 +4,7 @@ def prime?(x)
     elsif x == 2 
       return true
     else
+      array = [2..x]
         for n in (2..x)
             if x % n == 0
                return false
