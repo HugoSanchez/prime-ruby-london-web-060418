@@ -1,7 +1,7 @@
 def prime?(x)
     if x < 2
       return false
-    elsif x == 2 
+    elsif x == 2 || x == 3
       return true
     else
       array = (2...x).to_a
