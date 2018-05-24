@@ -1,6 +1,8 @@
 def prime?(x)
-    if x <= 2
-        return False
+    if x < 2
+      return false
+    elsif x == 2 
+      return true
     else
         for n in (2..x)
             if x % n == 0
