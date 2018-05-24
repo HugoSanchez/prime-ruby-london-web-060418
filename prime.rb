@@ -1,5 +1,5 @@
 def prime?(x)
-    if x < 2
+    if x <= 2
         return False
     else
         for n in (2..x)
