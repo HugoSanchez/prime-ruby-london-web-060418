@@ -8,7 +8,8 @@ def prime?(x)
         for n in array
             if x % n == 0
                return false
-            else return true
+            else 
+              return true
       end
     end
   end
